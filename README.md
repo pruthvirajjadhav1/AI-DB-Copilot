@@ -12,7 +12,7 @@ The application follows a layered architecture pattern with clear separation of 
 
 Watch the demo video to see the SQL AI Assistant in action:
 
-**[📹 Click here to view the demo video](support/Demo.mov)**
+**[📹 Click here to view the demo video](https://drive.google.com/file/d/11gd_oCi_eUdVT9BvXjxUcfklmOlcGnzD/view?usp=sharing)**
 
 ## 🚀 Features
 
