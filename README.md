@@ -2,6 +2,12 @@
 
 A Spring Boot application that leverages OpenAI's GPT models to convert natural language questions into SQL queries and execute them against a PostgreSQL database. This project demonstrates secure integration of generative AI with relational databases, enabling intelligent data interactions while maintaining robust security practices.
 
+## 🏗️ Architecture
+
+The application follows a layered architecture pattern with clear separation of concerns:
+
+![Architecture Diagram](support/Architecture-SQL-AI.png)
+
 ## 🚀 Features
 
 - **Natural Language to SQL**: Ask questions in plain English and get SQL queries generated automatically
@@ -143,12 +149,6 @@ spring:
    - Generate SQL query from your question
    - Execute the query against the database
    - Display results in a formatted table
-
-## 🏗️ Architecture
-
-The application follows a layered architecture pattern with clear separation of concerns:
-
-![Architecture Diagram](architecture.png)
 
 ### Architecture Overview
 
