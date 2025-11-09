@@ -1,0 +1,11 @@
+package com.pruthvi.sqlAi.exception;
+
+public class SqlGenerationException extends RuntimeException {
+    public SqlGenerationException(String message) {
+        super(message);
+    }
+
+    public SqlGenerationException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
