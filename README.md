@@ -8,6 +8,12 @@ The application follows a layered architecture pattern with clear separation of 
 
 ![Architecture Diagram](support/Architecture-SQL-AI.png)
 
+## 🎥 Demo
+
+Watch the demo video to see the SQL AI Assistant in action:
+
+**[📹 Click here to view the demo video](support/Demo.mov)**
+
 ## 🚀 Features
 
 - **Natural Language to SQL**: Ask questions in plain English and get SQL queries generated automatically
@@ -243,35 +249,6 @@ sqlAi/
 | POST | `/ask` | Process natural language question and return results |
 | GET | `/ask` | Redirects to home page (handles refresh scenarios) |
 
-## 🧪 Testing
-
-Run tests using Maven:
-
-```bash
-mvn test
-```
-
-## 🐛 Troubleshooting
-
-### Database Connection Issues
-
-- Ensure PostgreSQL is running
-- Check database credentials in `application.yaml`
-- Verify database name exists: `spring_ai_db`
-
-### OpenAI API Issues
-
-- Verify your API key is correct in `.env` file
-- Check your OpenAI account has sufficient credits
-- Ensure internet connection for API calls
-
-### Port Already in Use
-
-- Change the port in `application.yaml`:
-  ```yaml
-  server:
-    port: 8081
-  ```
 
 ## 🤝 Contributing
 
